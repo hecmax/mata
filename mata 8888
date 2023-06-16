@@ -1,0 +1,255 @@
+
+
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "Legit hub",
+    LoadingTitle = "Legit hub",
+    LoadingSubtitle = "by Hecmax",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = nil,
+        FileName = "legit hub"
+    }
+})
+if game.PlaceId == 2753915549 then
+    local Tab = Window:CreateTab("Bloxfruits", 4483362458)
+    local Section = Tab:CreateSection("Bloxfruits")
+    local Button = Tab:CreateButton({
+        Name = "SAZX",
+        Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GooD1020/SAZX_KAITANANDAiMbot_update/main/README.md"))()
+        end,
+    })
+    local Button = Tab:CreateButton({
+        Name = "Hoho hub",
+        Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+        end,
+    })
+    local Button = Tab:CreateButton({
+        Name = "2X SWITCH",
+        Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MkoriCraft/UPDBF2xSwitch/main/Protected%20(3).lua",true))()
+        end,
+    })
+    
+elseif game.PlaceId == 6284583030 then
+    local Tab = Window:CreateTab("PSX", 4483362458)
+    local Section = Tab:CreateSection("PSX")
+    local Button = Tab:CreateButton({
+        Name = "Project WD",
+        Callback = function()
+        getgenv().boothsnipe = false
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+        end,
+    })
+    local Button = Tab:CreateButton({
+        Name = "X7",
+        Callback = function()
+        local request = (syn and syn.request) or (http and http.request) or http_request
+        loadstring(request({['Url']='https://x7.software',['Method']='GET'}).Body)("X7-a5KsoQGw")
+        end,
+    })
+    local Button = Tab:CreateButton({
+        Name = "Rafa",
+        Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+        end,
+    })
+    
+elseif game.PlaceId == 6516141723 or game.PlaceId == 6839171747 then
+    local Tab = Window:CreateTab("Doors", 4483362458)
+    local Section = Tab:CreateSection("Doors")
+    local Button = Tab:CreateButton({
+        Name = "Saaaax",
+        Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Doors"))()
+        end,
+    })
+    local Button = Tab:CreateButton({
+        Name = "Project WD",
+        Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+        end,
+    })
+    local Button = Tab:CreateButton({
+        Name = "POOPDOORS",
+        Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
+        end,
+    })
+   
+elseif game.PlaceId == 142823291 then
+    local Tab = Window:CreateTab("MM2", 4483362458)
+    local Section = Tab:CreateSection("MM2")
+    local Button = Tab:CreateButton({
+        Name = "MM2 random script",
+        Callback = function()
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+        end,
+    })
+local Button = Tab:CreateButton({
+   Name = "KidichiHB",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2", true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Lunar hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2", true))()
+   end
+})
+
+  
+elseif game.PlaceId == 606849621 then
+local Tab = Window:CreateTab("JailBreak", 4483362458)
+local Section = Tab:CreateSection("JailBreak")
+local Button = Tab:CreateButton({
+   Name = "Onemorehub ",
+   Callback = function()
+   loadstring(game:HttpGet('https://gitlab.com/wspcontr/onemorehub/-/raw/main/scriptloader.lua'))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Diamond hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/JailBreak"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Veriax v1.0",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/Veriax/main/Verisions/1.1/Loader.lua"))()
+   end,
+})
+
+elseif game.PlaceId == 8737602449 then
+local Tab = Window:CreateTab("Pls donate", 4483362458)
+local Section = Tab:CreateSection("PLS donate")
+local Button = Tab:CreateButton({
+   Name = "Random PLS donate script",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/CKPD54Qw"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "VISUAL DONATE",
+   Callback = function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua")))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Ani Moon Fors ",
+   Callback = function()
+   
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/f0a3yune')))() 
+
+
+   end,
+})
+
+elseif game.PlaceId == 537413528 then
+    local Tab = Window:CreateTab("BABFT", 4483362458)
+    local Section = Tab:CreateSection("BABFT")
+    local Button = Tab:CreateButton({
+        Name = "VG hub",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Build-A-Boat'))()
+
+        end,
+     })
+     local Button = Tab:CreateButton({
+        Name = "Vynixius ",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+        end,
+     })
+     local Button = Tab:CreateButton({
+        Name = "OP SCRIPT",
+        Callback = function()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/JustAP1ayer/BABFTPLAYERHUB/main/BABFTV2.lua'),true))()
+
+        end,
+     })
+    
+    elseif game.PlaceId == 9872472334 then
+        local Tab = Window:CreateTab("Evade", 4483362458)
+        local Section = Tab:CreateSection("Evade") 
+        local Button = Tab:CreateButton({
+            Name = "Random script",
+            Callback = function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+            end,
+         })
+    
+
+    local Button = Tab:CreateButton({
+        Name = "King",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+        end,
+     })
+     local Button = Tab:CreateButton({
+        Name = "Esp",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/1PYszGFY", true))()
+        end,
+     })
+     
+
+        
+     
+     
+    elseif PlaceId == 189707 then
+        local Tab = Window:CreateTab("Natural Disaster Survival", 4483362458)
+        local Section = Tab:CreateSection("Natural Disaster Survival")
+        local Button = Tab:CreateButton({
+            Name = "Ghub",
+            Callback = function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+
+            end,
+         })
+         local Button = Tab:CreateButton({
+            Name = "Random script",
+            Callback = function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/TestForCry/robloxhacks/master/natural%20disaster%20survival"))()
+            end,
+         })
+         local Button = Tab:CreateButton({
+            Name = "Natural Disaster Survival Hub",
+            Callback = function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Natural%20Disaster'))()
+
+
+            end,
+         })
+         
+        
+    else
+    local Tab = Window:CreateTab("Universal", 4483362458)
+local Section = Tab:CreateSection("Universal scripts")
+local Button = Tab:CreateButton({
+    Name = "Infinite yield",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Ultimate admin GUI ",
+    Callback = function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/tVnw5A5x'))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "fates-admin",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+    end,
+})
+
+
+end
