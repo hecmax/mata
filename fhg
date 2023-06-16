@@ -1,0 +1,27 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("Legit hub loader")
+
+local serv = win:Server("Legit hub loader", "")
+local lbls = serv:Channel("Welcome")
+lbls:Label("Welcome to Legit hub")
+lbls:Label("If you want to load Legit hub just type 1234 in Enter code")
+lbls:Label("If you both Legit hub premium then type your code in Enter code ")
+local textbs = serv:Channel("Enter code")
+textbs:Textbox(
+    "Enter code here",
+    "",
+    true,
+    function(t)
+        if 1234 then
+            loadstring(game:HttpGet("https://github.com/hecmax/mata/blob/main/tsyr"))()
+        if b5ty9m0w21q8nj732vn  then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/hecmax/mata/main/r"))()            
+              
+            
+        end    
+            
+        end
+    end
+)
